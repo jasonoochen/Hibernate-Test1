@@ -12,7 +12,10 @@
     	
     	<!-- basic info for hibernate -->
     	<!-- hibernate DB language -->
+    	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    	<!-- 
     	<property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+    	-->
     	
     	<!-- 执行操作时是否在控制台打印SQL -->
     	<property name="show_sql">true</property>

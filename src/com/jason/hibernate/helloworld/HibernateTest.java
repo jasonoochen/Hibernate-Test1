@@ -2,6 +2,7 @@ package com.jason.hibernate.helloworld;
 
 import static org.junit.Assert.*;
 
+import java.nio.charset.MalformedInputException;
 import java.sql.Date;
 
 import org.hibernate.Session;
@@ -49,6 +50,7 @@ public class HibernateTest {
 		
 		//πÿ±’sessionFactory∂‘œÛ
 		sessionFactory.close();
+		
 	}
 
 }
